@@ -1,0 +1,23 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# Ignore uploads
+/wp-content/uploads/
+
+# Ignore configuration files
+wp-config.php
+
+# Ignore IDE/editor specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore plugin and theme binaries (compiled/temporary files)
+wp-content/plugins/
+wp-content/themes/
+
+# Ignore local server configuration files
+*.log
+
